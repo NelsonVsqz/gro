@@ -198,4 +198,5 @@ weights_df = pd.DataFrame(list(weights.items()), columns=['Factor', 'Peso'])
 st.table(weights_df)
 
 st.markdown("---")
-st.caption("Prototipo desarrollado con Streamlit. Datos del 01/09/2025 basados en el Excel proporcionado.")
+
+st.caption("Prototipo desarrollado.")
